@@ -1,0 +1,8 @@
+server:
+  port: 8000
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/identitydb?schema=public
+    username: postgres-identitydb
+    password: root-identitydb
